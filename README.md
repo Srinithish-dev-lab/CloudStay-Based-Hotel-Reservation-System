@@ -1,4 +1,5 @@
-# CloudStay-Based-Hotel-Reservation-System
+    
+# Hotel Reservation App
 
 Simple DevOps project which uses Docker to run the MongoDB and NodeJS app through which the website can be accessed
 
@@ -13,27 +14,27 @@ Trivy scans the Docker image being built, which is our NodeJS app.
 
 Clone the project
 
-bash
-  git clone https://github.com/Srinithish-dev-lab/CloudStay-Based-Hotel-Reservation-System.git
-
+```bash
+  git clone https://github.com/omprakashbabu/HotelReservation.git
+```
 
 Go to the project directory
 
-bash
+```bash
   cd HotelReservation
-
+```
 
 Install dependencies
 
-bash
+```bash
   npm install
   npm install -g nodemon
-
+```
 
 Start the server
 
-bash
+```bash
   nodemon src/index.js
-
+```
 
 To access the website, go to http://localhost:80
